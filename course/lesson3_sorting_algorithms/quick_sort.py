@@ -58,11 +58,11 @@ def partition_hoare(array, low, high):
 
 initial_array1 = [23, 11, 34, 87, 6, 18, 52]
 sorted_array1 = quick_sort(initial_array1)
-print("Quick Sort:", initial_array1)
+print("Quick Sort:", sorted_array1)
 
 initial_array2 = [64, 34, 25, 12, 22, 11, 90]
 sorted_array2 = quick_sort(initial_array2)
-print("Quick Sort Lomuto:", initial_array2)
+print("Quick Sort Lomuto:", sorted_array2)
 
 initial_array3 = [12, 31, 19, 94, 28, 1, 74]
 quick_sort_hoare(initial_array3, 0, len(initial_array3) - 1)
